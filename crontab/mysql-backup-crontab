@@ -1,0 +1,1 @@
+0 2 * * * bash /path-to/mysql-backup.sh

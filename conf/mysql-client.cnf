@@ -1,0 +1,8 @@
+[mysql]
+user=shuaicj
+password=shuaicj
+
+[mysqldump]
+user=shuaicj
+password=shuaicj
+

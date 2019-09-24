@@ -1,0 +1,17 @@
+[mysqld]
+
+# enable binlog with file prefix 'mysql-bin'
+log-bin = mysql-bin
+
+# set binlog format as MIXED, supported values are ROW, STATEMENT, MIXED
+binlog-format = MIXED
+
+# specify the database to log
+binlog-do-db = hellomysql
+
+# purge logs after specified days
+expire-logs-days = 100
+
+# set server-id if mysql won't start with default server-id 0 when binlog enabled
+server-id = 1
+
